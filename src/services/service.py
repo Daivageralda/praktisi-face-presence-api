@@ -10,8 +10,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import confusion_matrix, classification_report
 import random
 
-from src.models.facenet import load_model
-from src.utils.helper import load_image_from_bytes, train_test_split_and_save, response
+from src.models import load_model
+from src.utils import load_image_from_bytes, train_test_split_and_save, response
 
 interpreter, input_index, output_index = load_model()
 
@@ -58,16 +58,20 @@ async def register_user(user_id: str, file: List[UploadFile]):
         image = load_image_from_bytes(content)
         image = image.resize((160, 160))
         emb = extract_embedding(image_bytes=content)
+        print("emb shape:", emb.shape)
+        # print("saved_embeddings shape:", saved_embeddings.shape)
+
         embeddings.append(emb)
 
     if save_embedding(embeddings, user_id):
         eval_result = evaluate_user(user_id)
+        
         return response(200, True, f"✅ Registrasi berhasil untuk user {user_id}", eval_result)
     else:
         raise HTTPException(status_code=500, detail="❌ Gagal menyimpan embedding.")
 
 def evaluate_user(user_id: str) -> Dict[str, Any]:
-    user_test_dir = f"src/storage/test_image/{user_id}"
+    user_test_dir = f"src/storage/test_images/{user_id}"
     if not os.path.exists(user_test_dir):
         raise HTTPException(status_code=404, detail=f"❌ Folder test_image user {user_id} tidak ditemukan.")
 
@@ -75,11 +79,12 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
     if len(user_test_paths) == 0:
         raise HTTPException(status_code=404, detail="❌ Tidak ada gambar test user ditemukan.")
 
-    all_user_dirs = glob("src/storage/test_image/*")
+    all_user_dirs = glob("src/storage/test_images/*")
     other_users = [d for d in all_user_dirs if os.path.basename(d) != user_id]
     other_images = [img for d in other_users for img in glob(os.path.join(d, "*.webp"))]
 
     if len(other_images) < len(user_test_paths):
+        print(other_images)
         raise HTTPException(status_code=400, detail="❌ Tidak cukup gambar random untuk evaluasi.")
 
     random_sample_paths = random.sample(other_images, len(user_test_paths))
@@ -100,7 +105,7 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
         image = load_image_from_bytes(image_bytes)
         image = image.resize((160, 160))
         emb = extract_embedding(image_bytes)
-        similarity = cosine_similarity([emb], [saved_embeddings])[0][0]
+        similarity = cosine_similarity([emb], saved_embeddings)[0][0]
         predicted = 1 if similarity > 0.7 else 0
         predicted_labels.append(predicted)
 
@@ -119,14 +124,30 @@ def compare_embedding(user_id: str, image_bytes):
 
     saved_embeddings = joblib.load(model_path)
     input_embedding = extract_embedding(image_bytes)
-    similarity = cosine_similarity([input_embedding], [saved_embeddings])[0][0]
+    similarities = cosine_similarity([input_embedding], saved_embeddings)
+    similarity = float(np.mean(similarities))
+    print(similarity)
     return similarity
 
 async def verify_user(user_id: str, file: UploadFile):
     bytes_data = await file.read()
     similarity_score = compare_embedding(user_id, bytes_data)
+
+    if isinstance(similarity_score, dict):  # Error case
+        return response(400, False, "Kamu bukan user",similarity_score)  # langsung return dict error
+
     result_label = "Match" if similarity_score > 0.7 else "Not Match"
     return response(200, True, "Hasil verifikasi", {
         "similarity": float(similarity_score),
         "result": result_label
     })
+
+# async def verify_user(user_id: str, file: UploadFile):
+#     bytes_data = await file.read()
+#     similarity_score = compare_embedding(user_id, bytes_data)
+#     print(similarity_score)
+#     result_label = "Match" if similarity_score > 0.7 else "Not Match"
+#     return response(200, True, "Hasil verifikasi", {
+#         "similarity": float(similarity_score),
+#         "result": result_label
+#     })
