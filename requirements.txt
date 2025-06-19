@@ -2,3 +2,7 @@ tensorflow
 fastapi[standard]
 uvicorn
 scikit-learn
+pytest
+pytest-asyncio
+pytest-html
+pillow
