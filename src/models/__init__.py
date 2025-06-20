@@ -1,2 +1,2 @@
 # src/models/__init__.py
-from .facenet import load_model
+from .facenet import extract_embedding, load_model

@@ -1,5 +1,8 @@
 from fastapi import APIRouter, UploadFile, Form, File
-from src.services import service
+from src.handlers import (
+    register_user_handler,
+    verify_user_handler
+)
 
 router = APIRouter()
 
@@ -8,11 +11,11 @@ async def register_user(
     user_id: str = Form(...),
     file: list[UploadFile] = File(...)
 ):
-    return await service.register_user(user_id, file)
+    return await register_user_handler(user_id, file)
 
 @router.post("/verify")
 async def verify_user(
     user_id: str = Form(...),
     file: UploadFile = Form(...)
 ):
-    return await service.verify_user(user_id, file)
+    return await verify_user_handler(user_id, file)

@@ -1,8 +1,11 @@
-from typing import Any, Dict, List
+import os
+
 from PIL import Image
 from io import BytesIO
-import os
+from typing import Any, Dict, List
 from sklearn.model_selection import train_test_split
+
+from src.config import *
 
 
 def load_image_from_bytes(image_bytes: bytes) -> Image.Image:
@@ -19,35 +22,31 @@ def load_image_from_bytes(image_bytes: bytes) -> Image.Image:
 
 
 def train_test_split_and_save(
-    images_bytes: List[bytes],
-    user_id: str,
-    test_ratio: float = 0.2
-) -> List[bytes]:
-    """
-    Membagi gambar menjadi data pelatihan dan pengujian, serta menyimpan gambar uji ke file .webp.
+        images_bytes: List[bytes],
+        user_id: str,
+        test_ratio: float = 0.2
+    ) -> List[bytes]:
 
-    Args:
-        images_bytes (List[bytes]): Daftar gambar dalam bentuk bytes.
-        user_id (str): ID pengguna.
-        test_ratio (float): Rasio pembagian data test. Default 0.2.
-
-    Returns:
-        List[bytes]: Gambar hasil pembagian training (tanpa yang test).
-    """
     try:
-        # Split menjadi data train dan test
+        if len(images_bytes) < 2:
+            print("❗ Jumlah gambar terlalu sedikit untuk dilakukan split.")
+            return []
+
         train_imgs, test_imgs = train_test_split(images_bytes, test_size=test_ratio, random_state=42)
 
-        # Direktori penyimpanan gambar test
-        test_dir = os.path.join("src", "storage", "test_images", user_id)
+        test_dir = os.path.join(IMAGE_DIR, user_id)
         os.makedirs(test_dir, exist_ok=True)
+        print(f"📦 Menyimpan {len(test_imgs)} gambar test ke {test_dir}")
 
-        # Simpan setiap gambar test sebagai .webp
         for idx, img_bytes in enumerate(test_imgs):
-            img = load_image_from_bytes(img_bytes)
-            img.save(os.path.join(test_dir, f"test_{idx+1}.webp"), format="WEBP")
+            try:
+                img = load_image_from_bytes(img_bytes)
+                img.save(os.path.join(test_dir, f"{user_id}_{idx+1}.webp"), format="WEBP")
+            except Exception as e:
+                print(f"⚠️ Gagal menyimpan gambar ke-{idx+1}: {e}")
 
-        return train_imgs  # hanya train_imgs yang digunakan untuk proses embedding
+        return train_imgs
+
     except Exception as e:
         print(f"❌ Gagal melakukan split dan simpan test image: {e}")
         return []
