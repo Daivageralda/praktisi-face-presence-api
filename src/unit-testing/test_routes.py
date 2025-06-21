@@ -18,11 +18,6 @@ def create_dummy_image_bytes():
 
 
 def test_register_user():
-    # def post_user(user_id):
-        # files = [('file', ('image.webp', create_dummy_image_bytes(), 'image/webp')) for _ in range(10)]
-        # data = {'user_id': user_id}
-        # return client.post("/presence-api/v1/register", files=files, data=data)
-
     # Registrasi user dummy untuk evaluasi pembanding
     client.post("/presence-api/v1/register", files=[('file', ('image.webp', create_dummy_image_bytes(), 'image/webp')) for _ in range(10)], data={'user_id': 'otheruser'})
 
@@ -32,10 +27,12 @@ def test_register_user():
     data = {'user_id': user_id}
 
     response = client.post("/presence-api/v1/register", files=files, data=data)
-    print("REGISTER RESPONSE:", response.json())
 
     assert response.status_code == 200
     assert response.json()["success"] is True
+    assert response.json()["msg"] == "Registrasi Wajah Berhasil"
+    assert "confusion_matrix" in response.json()["data"]
+    assert "classification_report" in response.json()["data"]
 
 
 def test_verify_user():
@@ -44,9 +41,9 @@ def test_verify_user():
     data = {'user_id': user_id}
 
     response = client.post("/presence-api/v1/verify", files=[file], data=data)
-    print("VERIFY RESPONSE:", response.json())
 
     assert response.status_code == 200
     assert response.json()["success"] is True
+    assert response.json()["msg"] == "Verifikasi Wajah Berhasil"
     assert "similarity" in response.json()["data"]
     assert "result" in response.json()["data"]

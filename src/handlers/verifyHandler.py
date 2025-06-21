@@ -15,13 +15,14 @@ async def verify_user_handler(user_id: str, file: UploadFile):
                 data={"Gambar diterima": len(file)}
                 )
         #Validasi kedua, untuk user_id
-        # if not user_id or len(user_id) <= 10:
-        #     return response(
-        #         status_code=400,
-        #         success=False,
-        #         msg="Pengguna tidak valid",
-        #         data={"ID Pengguna yang diterima": user_id}
-        #     )
+        if not user_id:
+            return response(
+                status_code=400,
+                success=False,
+                msg="Pengguna tidak valid",
+                data={"ID Pengguna yang diterima": user_id}
+            )
+        
         #Validasi ketiga, untuk pengecekan user_id
         embedding_path = os.path.join(EMBEDDING_DIR, f"{user_id}.pkl")
         if not os.path.exists(embedding_path):

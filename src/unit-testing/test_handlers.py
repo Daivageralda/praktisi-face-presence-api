@@ -6,7 +6,7 @@ from PIL import Image
 from fastapi import UploadFile
 from starlette.datastructures import UploadFile
 
-from src.services import register_user, verify_user
+from src.handlers import register_user_handler, verify_user_handler
 
 
 # === Utility ===
@@ -37,11 +37,11 @@ async def test_register_user_success():
     user_id = "testuser"
     dummy_images = [create_upload_file(f"img_{i}.webp", create_dummy_image_bytes()) for i in range(10)]
 
-    response = await register_user(user_id, dummy_images)
+    response = await register_user_handler(user_id, dummy_images)
 
     assert response["status_code"] == 200
     assert response["success"] is True
-    assert "Evaluasi user berhasil dilakukan" in response["msg"]
+    assert "Registrasi Wajah Berhasil" in response["msg"]
     assert "confusion_matrix" in response["data"]
     assert "classification_report" in response["data"]
 
@@ -51,12 +51,12 @@ async def test_register_user_fail_if_less_than_10_images():
     user_id = "testuser"
     dummy_images = [create_upload_file(f"img_{i}.webp", create_dummy_image_bytes()) for i in range(5)]
 
-    response = await register_user(user_id, dummy_images)
+    response = await register_user_handler(user_id, dummy_images)
 
     assert response["status_code"] == 400
     assert response["success"] is False
-    assert response["msg"] == "Jumlah gambar tidak valid"
-    assert response["data"] == {"Jumlah gambar diterima": len(dummy_images) }
+    assert response["msg"] == "Kesalahan Jumlah Gambar"
+    assert response["data"] == {"Gambar diterima": len(dummy_images)}
 
 
 # === Test Verify ===
@@ -64,10 +64,10 @@ async def test_register_user_fail_if_less_than_10_images():
 async def test_verify_user_success():
     user_id = "testuser"
     dummy_images = [create_upload_file(f"img_{i}.webp", create_dummy_image_bytes()) for i in range(10)]
-    await register_user(user_id, dummy_images)
+    await register_user_handler(user_id, dummy_images)
 
     verify_file = create_upload_file("verify.webp", create_dummy_image_bytes())
-    response = await verify_user(user_id, verify_file)
+    response = await verify_user_handler(user_id, verify_file)
 
     assert response["status_code"] == 200
     assert response["success"] is True
@@ -80,10 +80,10 @@ async def test_verify_user_fail_if_user_not_registered():
     user_id = "nonexistent_user"
     verify_file = create_upload_file("verify.webp", create_dummy_image_bytes())
 
-    response = await verify_user(user_id, verify_file)
+    response = await verify_user_handler(user_id, verify_file)
 
-    assert response["status_code"] == 404
+    assert response["status_code"] == 400
     assert response["success"] is False
-    assert response["msg"] == f"Pengguna {user_id} tidak ditemukan."
-    assert response["data"] == {}
+    assert response["msg"] == f"Pengguna belum registrasi"
+    assert response["data"] == {"ID Pengguna yang diterima": {user_id}}
 

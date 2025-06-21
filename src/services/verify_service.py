@@ -5,10 +5,9 @@ import numpy as np
 from fastapi import UploadFile
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 from src.config import *
 from src.models import extract_embedding
-from src.utils import load_image_from_bytes, response
+from src.utils import response
 
 def compare_embedding(user_id: str, image_bytes):
     try:
@@ -37,16 +36,13 @@ def compare_embedding(user_id: str, image_bytes):
         )
 
 async def verify_user(user_id: str, file: UploadFile):
+    print(f"INFO: Verifying user: {user_id}")
     try:
         bytes_data = await file.read()
         similarity_score = compare_embedding(user_id, bytes_data)
 
         if isinstance(similarity_score, dict): 
-            return response(
-                status_code=400,
-                success=False,
-                msg="Pengguna tidak valid",
-                data=similarity_score)
+            return similarity_score
 
         result_label = "Match" if similarity_score > THRESHOLD else "Not Match"
         return response(
@@ -61,6 +57,6 @@ async def verify_user(user_id: str, file: UploadFile):
         return response(
             status_code=500,
             success=False,
-            msg="❌ Terjadi kesalahan internal saat verifikasi pengguna",
+            msg="Terjadi kesalahan internal saat verifikasi pengguna",
             data={"error": str(e)}
         )

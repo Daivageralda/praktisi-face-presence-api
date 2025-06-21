@@ -15,6 +15,7 @@ from src.utils import load_image_from_bytes, train_test_split_and_save, response
 
 
 def save_embedding(embedding, user_id):
+    print(f"INFO: Saving embedding user: {user_id}")
     try:
         if embedding is None or not isinstance(embedding, (list, np.ndarray)) or len(embedding) == 0:
             print("Embedding tidak valid atau kosong.")
@@ -23,7 +24,7 @@ def save_embedding(embedding, user_id):
         os.makedirs(EMBEDDING_DIR, exist_ok=True)
         path_model = os.path.join(EMBEDDING_DIR, f"{user_id}.pkl")
         joblib.dump(np.array(embedding), path_model)
-        print(f"✅ Embedding berhasil disimpan: {path_model}")
+        # print(f"✅ Embedding berhasil disimpan: {path_model}")
         return True
 
     except Exception as e:
@@ -32,75 +33,93 @@ def save_embedding(embedding, user_id):
 
 
 async def register_user(user_id: str, file: List[UploadFile]):
-    print(f"[INFO] Registering user: {user_id}")
+    try:
+        print(f"INFO: Registering user: {user_id}")
 
-    #Tahap 1, Baca dan Simpan Bytes Gambar ke Dalam Sebuah Variabel
-    images_bytes = []
-    for i, frame in enumerate(file):
-        try:
-            content = await frame.read()
-            images_bytes.append(content)
-        except Exception as e:
+        #Tahap 1, Baca dan Simpan Bytes Gambar ke Dalam Sebuah Variabel serta validasi ulang jumlah gambar yang bisa dibaca
+        images_bytes = []
+        for i, frame in enumerate(file):
+            try:
+                content = await frame.read()
+                images_bytes.append(content)
+            except Exception as e:
+                return response(
+                    status_code=400,
+                    success=False,
+                    msg="Terjadi kesalahan saat memproses gambar",
+                    data={"error": str(e)}
+                )
+
+        if len(images_bytes) != 10:
             return response(
                 status_code=400,
                 success=False,
-                msg="Terjadi kesalahan saat memproses gambar",
-                data={"error": str(e)}
+                msg="Jumlah gambar tidak valid",
+                data={"Jumlah gambar diterima": len(images_bytes)}
             )
 
-    # Tahap 2, Spltting Data menjadi TRAIN DAN TEST Dengan Proporsi 80:20
-    try:
-        train_images = train_test_split_and_save(images_bytes, user_id)
-        if not train_images:
-            return response(
-                status_code=500,
-                success=False,
-                msg="Gagal menyimpan gambar hasil split",
-                data={}
-            )
 
-    except Exception as e:
-        return response(
-            status_code=500,
-            success=False,
-            msg="Terjadi kesalahan saat proses split data",
-            data={"error": str(e)}
-        )
-
-        
-    # Tahap 3, Ekstraksi dan Simpan Embedding Data Train Dalam Sebuah Variabel
-    embeddings = []
-    for content in train_images:
+        # Tahap 2, Spltting Data menjadi TRAIN DAN TEST Dengan Proporsi 80:20
         try:
-            image = load_image_from_bytes(content)
-            image = image.resize((IMAGE_SIZE, IMAGE_SIZE))
-            emb = extract_embedding(image_bytes=content)
-            embeddings.append(emb)
+            train_images = train_test_split_and_save(images_bytes, user_id)
+            if not train_images:
+                return response(
+                    status_code=500,
+                    success=False,
+                    msg="Gagal menyimpan gambar hasil split",
+                    data={}
+                )
+
         except Exception as e:
             return response(
                 status_code=500,
                 success=False,
-                msg="Terjadi kesalahan saat proses ekstrak embedding",
+                msg="Terjadi kesalahan saat proses split data",
                 data={"error": str(e)}
             )
 
+            
+        # Tahap 3, Ekstraksi dan Simpan Embedding Data Train Dalam Sebuah Variabel
+        embeddings = []
+        for content in train_images:
+            try:
+                image = load_image_from_bytes(content)
+                image = image.resize((IMAGE_SIZE, IMAGE_SIZE))
+                emb = extract_embedding(image_bytes=content)
+                embeddings.append(emb)
+            except Exception as e:
+                return response(
+                    status_code=500,
+                    success=False,
+                    msg="Terjadi kesalahan saat proses ekstrak embedding",
+                    data={"error": str(e)}
+                )
 
-    # Tahap 4, Simpan Embedding Berdasarkan ID Pengguna dan Lakukan Evaluasi
-    try:
-        if save_embedding(embeddings, user_id):
-            eval_result = evaluate_user(user_id)
-            return eval_result
+
+        # Tahap 4, Simpan Embedding Berdasarkan ID Pengguna dan Lakukan Evaluasi
+        try:
+            if save_embedding(embeddings, user_id):
+                eval_result = evaluate_user(user_id)
+                return eval_result
+            
+        except Exception as e:
+            return response(
+                status_code=500,
+                success=False,
+                msg="Terjadi kesalahan saat simpan dan evaluasi",
+                data={"error": str(e)}
+            )
         
     except Exception as e:
         return response(
             status_code=500,
             success=False,
-            msg="Terjadi kesalahan saat simpan dan evaluasi",
+            msg="Terjadi kesalahan dalam proses registrasi",
             data={"error": str(e)}
-        )
-
+        )     
 
 def evaluate_user(user_id: str) -> Dict[str, Any]:
+    print(f"INFO: Evaluating embedding user: {user_id}")
     try:
         user_test_dir = os.path.join(IMAGE_DIR, user_id)
         
@@ -129,7 +148,7 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
             return response(
                 status_code=400,
                 success=False,
-                msg="❌ Tidak cukup gambar random dari user lain untuk evaluasi.",
+                msg="Tidak cukup gambar random dari user lain untuk evaluasi.",
                 data={"jumlah_tersedia": len(other_images)}
             )
 
@@ -143,7 +162,7 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
             return response(
                 status_code=404,
                 success=False,
-                msg="❌ Embedding user tidak ditemukan.",
+                msg="Embedding pengguna tidak ditemukan.",
                 data={}
             )
 
@@ -170,7 +189,7 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
             target_names=["Fake", "Real"],
             output_dict=True
         )
-
+        print(f"INFO: Registering user: {user_id} - Success")
         return response(
             status_code=200,
             success=True,

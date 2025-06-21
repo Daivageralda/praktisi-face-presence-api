@@ -7,23 +7,23 @@ from src.utils import response
 async def register_user_handler(user_id: str, files: List[UploadFile]):
     try:
         #Validasi pertama, untuk jumlah gambar
-        # if len(files) != 10:
-        #     return response(
-        #         status_code=400,
-        #         success=False,
-        #         msg="Kesalahan Jumlah Gambar",
-        #         data={"Gambar diterima": len(files)}
-        #         )
+        if len(files) != 10:
+            return response(
+                status_code=400,
+                success=False,
+                msg="Kesalahan Jumlah Gambar",
+                data={"Gambar diterima": len(files)}
+                )
         
 
         #Validasi kedua, untuk user_id
-        # if not user_id or len(user_id) <= 10:
-        #     return response(
-        #         status_code=400,
-        #         success=False,
-        #         msg="Pengguna tidak valid",
-        #         data={"ID Pengguna yang diterima": user_id}
-        #     )
+        if not user_id:
+            return response(
+                status_code=400,
+                success=False,
+                msg="Pengguna tidak valid",
+                data={"ID Pengguna yang diterima": user_id}
+            )
         
         #Validasi ketiga, untuk pengecekan user_id
         # embedding_path = os.path.join(EMBEDDING_DIR, user_id)
