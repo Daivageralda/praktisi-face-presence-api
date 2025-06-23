@@ -36,7 +36,7 @@ def train_test_split_and_save(
 
         test_dir = os.path.join(IMAGE_DIR, user_id)
         os.makedirs(test_dir, exist_ok=True)
-        # print(f"Menyimpan {len(test_imgs)} gambar test ke {test_dir}")
+        print(f"Menyimpan {len(test_imgs)} gambar test ke {test_dir}")
 
         for idx, img_bytes in enumerate(test_imgs):
             try:

@@ -48,7 +48,7 @@ async def verify_user_handler(user_id: str, file: UploadFile):
     
     except Exception as e:
         return response(
-            status_code=400,
+            status_code=500,
             success=False,
             msg="Terjadi kesalahan saat proses verifikasi wajah",
             data={"error": str(e)}

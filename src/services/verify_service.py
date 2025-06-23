@@ -40,7 +40,7 @@ async def verify_user(user_id: str, file: UploadFile):
     try:
         bytes_data = await file.read()
         similarity_score = compare_embedding(user_id, bytes_data)
-
+        print(similarity_score)
         if isinstance(similarity_score, dict): 
             return similarity_score
 

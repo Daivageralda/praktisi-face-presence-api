@@ -7,7 +7,7 @@ from src.utils import response
 async def register_user_handler(user_id: str, files: List[UploadFile]):
     try:
         #Validasi pertama, untuk jumlah gambar
-        if len(files) != 10:
+        if len(files) != 50:
             return response(
                 status_code=400,
                 success=False,
@@ -37,6 +37,7 @@ async def register_user_handler(user_id: str, files: List[UploadFile]):
 
         #Menjalankan Proses Registrasi
         result = await register_user(user_id, files)
+        print(result)
 
         #Pengecekan hasil registrasi
         if isinstance(result, dict) and not result["success"]:
@@ -52,7 +53,7 @@ async def register_user_handler(user_id: str, files: List[UploadFile]):
     
     except Exception as e:
         return response(
-            status_code=400,
+            status_code=500,
             success=False,
             msg="Terjadi kesalahan saat proses registrasi wajah",
             data={"error": str(e)}

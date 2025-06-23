@@ -50,7 +50,7 @@ async def register_user(user_id: str, file: List[UploadFile]):
                     data={"error": str(e)}
                 )
 
-        if len(images_bytes) != 10:
+        if len(images_bytes) != 50:
             return response(
                 status_code=400,
                 success=False,
@@ -64,7 +64,7 @@ async def register_user(user_id: str, file: List[UploadFile]):
             train_images = train_test_split_and_save(images_bytes, user_id)
             if not train_images:
                 return response(
-                    status_code=500,
+                    status_code=400,
                     success=False,
                     msg="Gagal menyimpan gambar hasil split",
                     data={}
@@ -100,6 +100,7 @@ async def register_user(user_id: str, file: List[UploadFile]):
         try:
             if save_embedding(embeddings, user_id):
                 eval_result = evaluate_user(user_id)
+                print(eval_result)
                 return eval_result
             
         except Exception as e:
@@ -127,7 +128,7 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
             return response(
                 status_code=404,
                 success=False,
-                msg=f"❌ Folder test_image user {user_id} tidak ditemukan.",
+                msg=f"Folder test_image user {user_id} tidak ditemukan.",
                 data={}
             )
 
@@ -203,6 +204,6 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
         return response(
             status_code=500,
             success=False,
-            msg="❌ Terjadi kesalahan internal saat evaluasi user",
+            msg="Terjadi kesalahan internal saat evaluasi user",
             data={"error": str(e)}
         )
