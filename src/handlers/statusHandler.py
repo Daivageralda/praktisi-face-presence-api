@@ -19,8 +19,8 @@ async def status_user_handler(user_id: str):
         embedding_path = os.path.join(EMBEDDING_DIR, f"{user_id}.pkl")
         if not os.path.exists(embedding_path):
             return response(
-                status_code=400,
-                success=False,
+                status_code=200,
+                success=True,
                 msg="pengguna belum registrasi",
                 data={"ID Pengguna yang diterima": {user_id}}
             )      
