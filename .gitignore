@@ -1,0 +1,13 @@
+venv/
+src/storage/
+src/__pycache__
+src/models/__pycache__
+src/routes/__pycache__
+src/services/__pycache__
+src/handlers/__pycache__
+src/config/__pycache__
+src/utils/__pycache__
+src/unit-testing/__pycache__
+src/.pytest_cache
+report.html
+.pytest_cache
