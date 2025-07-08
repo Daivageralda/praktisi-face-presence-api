@@ -1,4 +1,6 @@
 venv/
+.env
+src/etc
 src/storage/
 src/__pycache__
 src/models/__pycache__
