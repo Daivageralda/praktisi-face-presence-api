@@ -2,7 +2,8 @@ from fastapi import APIRouter, UploadFile, Form, File
 from src.handlers import (
     register_user_handler,
     verify_user_handler,
-    status_user_handler
+    status_user_handler,
+    log_user_handler
 )
 
 router = APIRouter()
@@ -21,8 +22,17 @@ async def verify_user(
 ):
     return await verify_user_handler(user_id, file)
 
+@router.post("/log")
+async def log_user(
+    user_id: str = Form(...),
+    durasi: float = Form(...)
+):
+    print(user_id)
+    print(durasi)
+    return await log_user_handler(user_id, durasi)
+
 @router.post("/status")
-async def verify_user(
+async def status_user(
     user_id: str = Form(...)
 ):
     return await status_user_handler(user_id)

@@ -7,8 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from src.config import *
 from src.models import extract_embedding
-from src.utils import response
-from src.utils import update_Result
+from src.utils import response, update_Result
 
 def compare_embedding(user_id: str, image_bytes):
     try:
@@ -46,7 +45,7 @@ async def verify_user(user_id: str, file: UploadFile):
             return similarity_score
 
         result_label = "Match" if similarity_score > THRESHOLD else "Not Match"
-        update_Result(user_id, result_label)
+        await update_Result(user_id, result_label)
         return response(
             status_code=200,
             success=True,

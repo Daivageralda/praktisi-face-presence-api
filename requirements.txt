@@ -6,4 +6,6 @@ pytest
 pytest-asyncio
 pytest-html
 pillow
-openpyxl
+gspread
+google-auth
+python-dotenv
