@@ -6,6 +6,7 @@ pytest
 pytest-asyncio
 pytest-html
 pillow
-gspread
+gspread-asyncio
+aiohttp
 google-auth
 python-dotenv

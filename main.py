@@ -4,7 +4,7 @@ try:
     if __name__ == "__main__":
         uc.run(
             'src.app:app',  # Mengarah ke apps/app.py -> app
-            host="0.0.0.0",
+            host="localhost",
             port=8888,
             reload=True
         )

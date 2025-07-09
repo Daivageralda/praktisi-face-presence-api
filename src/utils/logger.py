@@ -1,68 +1,66 @@
-import gspread
+from typing import List
 from google.oauth2.service_account import Credentials
-from src.utils import response
-from src.config import *
+from gspread_asyncio import AsyncioGspreadClientManager
 
-# Inisialisasi koneksi ke Google Spreadsheet
-def get_worksheet(sheet_name="Presensi"):
-    scopes = ["https://www.googleapis.com/auth/spreadsheets"]
-    credentials = Credentials.from_service_account_file(
-        CREDENTIALS, scopes=scopes
+from src.config import *
+from src.utils import response
+
+def get_creds():
+    return Credentials.from_service_account_file(
+        CREDENTIALS,
+        scopes=["https://www.googleapis.com/auth/spreadsheets"]
     )
 
-    client = gspread.authorize(credentials)
+# Global Variable
+agcm = AsyncioGspreadClientManager(get_creds)
 
-    spreadsheet = client.open_by_key(SHEET_ID)
+async def get_worksheet(sheet_name):
+    agc = await agcm.authorize()
+    spreadsheet = await agc.open_by_key(SHEET_ID)
     
     try:
-        worksheet = spreadsheet.worksheet(sheet_name)
-        print()
-    except gspread.exceptions.WorksheetNotFound:
-        worksheet = spreadsheet.add_worksheet(title=sheet_name, rows="100", cols="20")
-        worksheet.append_row(["Id Praktikan", "Presensi Berhasil", "Presensi Gagal", "Jumlah Presensi"])
+        worksheet = await spreadsheet.worksheet(sheet_name)
+    except:
+        worksheet = await spreadsheet.add_worksheet(title=sheet_name, rows="100", cols="20")
+        if sheet_name == "Presensi":
+            await worksheet.append_row(["Id Praktikan", "Presensi Berhasil", "Presensi Gagal", "Jumlah Presensi"])
+        elif sheet_name == "Registrasi":
+            await worksheet.append_row(["Id Praktikan", "Akurasi", "Presisi", "Recall"])
     return worksheet
 
-
-async def update_Result(
-    praktikan_id: str,
-    result_label: str = None,
-    durasi: float = None
-):
+async def verify_logger(praktikan_id: str, result_label: str = None, durasi: float = None, sheet_name = "Presensi"):
     try:
-        ws = get_worksheet()
-        headers = ws.row_values(1)
-        data = ws.get_all_records()
-
+        ws = await get_worksheet(sheet_name)
+        headers = await ws.row_values(1)
+        data = await ws.get_all_records()
         verifikasi_ke = None
         updated = False
 
         for i, row in enumerate(data, start=2):
             if str(row['Id Praktikan']) == str(praktikan_id):
-                presensi_berhasil = row.get("Presensi Berhasil", 0)
-                presensi_gagal = row.get("Presensi Gagal", 0)
-                jumlah_presensi = row.get("Jumlah Presensi", 0)
+                berhasil = row.get("Presensi Berhasil", 0)
+                gagal = row.get("Presensi Gagal", 0)
 
                 if result_label == "Match":
-                    presensi_berhasil += 1
+                    berhasil += 1
                 elif result_label == "Not Match":
-                    presensi_gagal += 1
+                    gagal += 1
 
-                jumlah_presensi = presensi_berhasil + presensi_gagal
+                jumlah = berhasil + gagal
 
-                ws.update_cell(i, 2, presensi_berhasil)
-                ws.update_cell(i, 3, presensi_gagal)
-                ws.update_cell(i, 4, jumlah_presensi)
+                await ws.update_cell(i, 2, berhasil)
+                await ws.update_cell(i, 3, gagal)
+                await ws.update_cell(i, 4, jumlah)
 
                 if durasi is not None:
-                    count_existing = len([h for h in headers if h and h.startswith("Verifikasi ")])
+                    count_existing = len([h for h in headers if h.startswith("Verifikasi ")])
                     new_col = f"Verifikasi {count_existing + 1}"
-
                     if new_col not in headers:
-                        ws.update_cell(1, len(headers) + 1, new_col)
+                        await ws.update_cell(1, len(headers) + 1, new_col)
                         headers.append(new_col)
 
                     col_idx = headers.index(new_col) + 1
-                    ws.update_cell(i, col_idx, float(durasi))
+                    await ws.update_cell(i, col_idx, float(durasi))
                     verifikasi_ke = count_existing + 1
 
                 updated = True
@@ -73,23 +71,21 @@ async def update_Result(
                 praktikan_id,
                 1 if result_label == "Match" else 0,
                 1 if result_label == "Not Match" else 0,
-                1 if result_label in ("Match", "Not Match") else 0
+                1
             ]
 
             if durasi is not None:
-                count_existing = len([h for h in headers if h and h.startswith("Verifikasi ")])
+                count_existing = len([h for h in headers if h.startswith("Verifikasi ")])
                 new_col = f"Verifikasi {count_existing + 1}"
-
                 if new_col not in headers:
-                    ws.update_cell(1, len(headers) + 1, new_col)
+                    await ws.update_cell(1, len(headers) + 1, new_col)
                     headers.append(new_col)
 
                 while len(new_row) < len(headers):
                     new_row.append("")
                 new_row[headers.index(new_col)] = float(durasi)
-                verifikasi_ke = count_existing + 1
 
-            ws.append_row(new_row)
+            await ws.append_row(new_row)
 
         return response(
             status_code=200,
@@ -104,9 +100,42 @@ async def update_Result(
         )
 
     except Exception as e:
-        return response(
-            status_code=500,
-            success=False,
-            msg="Gagal memperbarui Google Spreadsheet",
-            data={"error": str(e)}
-        )
+        return response(500, False, "Gagal update presensi", {"error": str(e)})
+
+async def register_logger(praktikan_id: str, cm: List[List[int]], sheet_name="Registrasi"):
+    try:
+        ws = await get_worksheet(sheet_name)
+        data = await ws.get_all_records()
+
+        TP, TN, FP, FN = cm[1][1], cm[0][0], cm[0][1], cm[1][0]
+        total = TP + TN + FP + FN
+        akurasi = (TP + TN) / total if total else 0
+        presisi = TP / (TP + FP) if (TP + FP) else 0
+        recall = TP / (TP + FN) if (TP + FN) else 0
+
+        updated = False
+        for i, row in enumerate(data, start=2):
+            if str(row.get("Id Praktikan")) == str(praktikan_id):
+                await ws.update_cell(i, 2, round(akurasi, 4))
+                await ws.update_cell(i, 3, round(presisi, 4))
+                await ws.update_cell(i, 4, round(recall, 4))
+                updated = True
+                break
+
+        if not updated:
+            await ws.append_row([
+                praktikan_id,
+                round(akurasi, 4),
+                round(presisi, 4),
+                round(recall, 4)
+            ])
+
+        return response(200, True, "Berhasil catat evaluasi", {
+            "praktikan_id": praktikan_id,
+            "akurasi": akurasi,
+            "presisi": presisi,
+            "recall": recall
+        })
+    
+    except Exception as e:
+        return response(500, False, "Gagal catat evaluasi", {"error": str(e)})

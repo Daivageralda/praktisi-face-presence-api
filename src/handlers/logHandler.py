@@ -1,6 +1,6 @@
 from src.config import *
 from src.utils import response
-from src.utils import update_Result
+from src.utils import verify_logger
 
 
 async def log_user_handler(user_id: str, durasi: float):
@@ -24,7 +24,7 @@ async def log_user_handler(user_id: str, durasi: float):
             )
         
 
-        result = await update_Result(praktikan_id=user_id, durasi=durasi)
+        result = await verify_logger(praktikan_id=user_id, durasi=durasi)
 
         if isinstance(result, dict) and not result["success"]:
             return result    

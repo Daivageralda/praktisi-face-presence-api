@@ -2,6 +2,7 @@ import os
 import joblib
 import random
 import numpy as np
+import asyncio
 
 from glob import glob
 from fastapi import UploadFile
@@ -11,7 +12,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 from src.config import *
 from src.models import extract_embedding
-from src.utils import load_image_from_bytes, train_test_split_and_save, response
+from src.utils import load_image_from_bytes, train_test_split_and_save, response, register_logger
 
 
 def save_embedding(embedding, user_id):
@@ -99,7 +100,7 @@ async def register_user(user_id: str, file: List[UploadFile]):
         # Tahap 4, Simpan Embedding Berdasarkan ID Pengguna dan Lakukan Evaluasi
         try:
             if save_embedding(embeddings, user_id):
-                eval_result = evaluate_user(user_id)
+                eval_result = await evaluate_user(user_id)
                 print(eval_result)
                 return eval_result
             
@@ -119,7 +120,7 @@ async def register_user(user_id: str, file: List[UploadFile]):
             data={"error": str(e)}
         )     
 
-def evaluate_user(user_id: str) -> Dict[str, Any]:
+async def evaluate_user(user_id: str) -> Dict[str, Any]:
     print(f"INFO: Evaluating embedding user: {user_id}")
     try:
         user_test_dir = os.path.join(IMAGE_DIR, user_id)
@@ -190,7 +191,11 @@ def evaluate_user(user_id: str) -> Dict[str, Any]:
             target_names=["Fake", "Real"],
             output_dict=True
         )
-        print(f"INFO: Registering user: {user_id} - Success")
+
+        # Log Registrasi
+        await register_logger(user_id, cm)
+
+
         return response(
             status_code=200,
             success=True,

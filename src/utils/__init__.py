@@ -1,3 +1,3 @@
 # src/utils/__init__.py
 from .helper import *
-from .logger import update_Result
+from .logger import verify_logger, register_logger
