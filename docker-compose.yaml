@@ -3,10 +3,11 @@ services:
     build: .
     ports:
       - "8888:8888"  # Sesuaikan dengan settings.API_PORT kamu
-    volumes:
-      - .:/app
+
     environment:
       - DEBUG=True
     env_file:
       - .env
+    volumes:
+      - ./credentials.json:/app/credentials.json
     restart: always
