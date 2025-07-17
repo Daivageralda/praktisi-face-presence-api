@@ -3,7 +3,6 @@ services:
     build: .
     ports:
       - "8888:8888"  # Sesuaikan dengan settings.API_PORT kamu
-
     environment:
       - DEBUG=True
     env_file:
