@@ -1,0 +1,33 @@
+2025-07-15 20:16:34 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-15 20:16:35 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-15 20:16:45 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-15 20:16:46 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-15 20:16:46 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-15 20:16:46 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-15 20:16:46 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-15 20:16:52 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-15 20:16:52 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-15 20:16:52 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-15 20:16:52 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-15 20:16:54 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-15 20:16:54 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-15 20:16:57 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-15 20:16:57 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-15 20:16:57 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-15 20:17:07 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:17:17 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:17:27 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-15 20:17:27 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-15 20:17:27 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:17:27 [DEBUG] watchfiles.main: 1 change detected: {(<Change.modified: 2>, '/app/src/logs/2025-07-15.log')}
+2025-07-15 20:17:37 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:17:47 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:17:57 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-15 20:17:57 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-15 20:17:57 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:18:07 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:18:17 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-15 20:18:20 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-15 20:18:20 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-15 20:18:20 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-15 20:18:20 [INFO] face-presence-api: [App] Executor resources cleaned up.

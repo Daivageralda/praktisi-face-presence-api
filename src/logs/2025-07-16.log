@@ -1,0 +1,697 @@
+2025-07-16 03:27:27 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:27:29 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:27:29 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:27:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:36 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:27:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:38 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:27:38 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:27:38 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:27:38 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:27:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:42 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:42 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:42 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:43 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:43 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:43 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:45 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:27:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:27:46 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:27:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:27:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:47 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:27:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:47 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:27:47 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:27:47 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:27:47 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:27:47 [INFO] watchfiles.main: 6 changes detected
+2025-07-16 03:27:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:50 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:50 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:50 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:51 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:51 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:52 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:52 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:53 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:53 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:53 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:54 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:54 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:54 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:55 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:55 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:56 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:56 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:56 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:57 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:57 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:27:57 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:58 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:58 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:58 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:59 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:59 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:27:59 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:00 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:00 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:01 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:01 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:01 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:02 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:02 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:02 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:03 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:03 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:03 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:07 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:28:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:14 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:14 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:14 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:15 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:15 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:15 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:16 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:16 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:16 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:17 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:17 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:28:17 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:28:17 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:28:17 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:17 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:20 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:20 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:20 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:21 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:21 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:24 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:24 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:26 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:26 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:26 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:27 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:27 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:28:27 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:27 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:28 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:28 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:37 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:28:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:42 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:42 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:42 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:43 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:43 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:47 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:28:47 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:28:47 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:28:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:28:57 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:29:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:04 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-16 03:29:04 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-16 03:29:04 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-16 03:29:04 [INFO] face-presence-api: [App] Executor resources cleaned up.
+2025-07-16 03:29:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:06 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:29:06 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:29:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:10 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:29:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:11 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:29:11 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:29:11 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:29:11 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:29:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:14 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:14 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:29:14 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:29:14 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:29:14 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:29:15 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:29:15 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:29:15 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:29:15 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:29:15 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:29:17 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:29:18 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:29:18 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:29:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:23 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:29:24 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:29:24 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:29:24 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:29:24 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:29:29 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:29:29 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:29:29 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:29:29 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:29:29 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:29:29 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:29:29 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:29:29 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:29:29 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:29:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:29:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:29:54 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-16 03:29:54 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-16 03:29:54 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-16 03:29:54 [INFO] face-presence-api: [App] Executor resources cleaned up.
+2025-07-16 03:29:57 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:29:58 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:29:58 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:29:58 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:59 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:59 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:29:59 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:00 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:00 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:00 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:01 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:01 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:01 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:30:01 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:02 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:02 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:02 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:30:02 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:30:02 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:30:02 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:30:02 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:03 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:03 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:05 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:30:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:30:06 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:30:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:30:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:06 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:30:06 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:30:06 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:30:06 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:30:06 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:30:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:30:16 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:30:26 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:30:36 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:30:36 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:30:36 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:30:46 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:30:56 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:31:06 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:31:06 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:31:06 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:31:16 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:31:26 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:31:36 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:31:36 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:31:36 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:31:46 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:31:56 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:32:03 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:03 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-16 03:32:03 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-16 03:32:03 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-16 03:32:03 [INFO] face-presence-api: [App] Executor resources cleaned up.
+2025-07-16 03:32:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:05 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:32:05 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:32:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:06 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:07 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:08 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:09 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:32:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:09 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:10 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:32:10 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:32:10 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:32:10 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:32:10 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:11 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:12 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:13 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:14 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:14 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:32:15 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:32:15 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:32:15 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:32:15 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:32:15 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:32:15 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:32:15 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:32:15 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:32:16 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:17 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:32:17 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:32:17 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:17 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:19 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:20 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:20 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:32:20 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:20 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:21 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:21 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:32:21 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:32:21 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:32:21 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:32:21 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:24 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:24 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:24 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:32:24 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:32:24 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:32:24 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:32:24 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:25 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:32:25 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:32:25 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:32:25 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:32:25 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:32:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:26 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:26 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:27 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:27 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:27 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:28 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:28 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:28 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:29 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:30 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:31 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:32 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:33 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:34 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:32:35 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:36 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:37 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:38 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:39 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:40 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:41 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:42 [INFO] watchfiles.main: 2 changes detected
+2025-07-16 03:32:42 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-16 03:32:42 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-16 03:32:42 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-16 03:32:42 [INFO] face-presence-api: [App] Executor resources cleaned up.
+2025-07-16 03:32:43 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:44 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 03:32:44 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-16 03:32:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:44 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:45 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:46 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:47 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 03:32:47 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:48 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:32:48 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:32:48 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 03:32:48 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 03:32:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:48 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:49 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:32:52 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 03:32:52 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 03:32:53 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 03:32:53 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 03:32:53 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 03:32:53 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 03:32:53 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 03:32:53 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 03:32:53 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 03:33:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:33:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:33:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:33:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:33:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:33:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:33:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:33:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:33:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:33:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:34:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:34:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:34:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:34:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:34:53 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:34:57 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:35:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:35:05 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:35:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:35:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:35:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:35:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:35:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:35:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:35:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:35:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:35:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:36:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:36:04 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:36:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:36:16 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:36:18 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:36:22 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:36:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:36:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:36:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:36:25 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:36:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:36:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:36:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:36:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:36:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:37:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:37:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:37:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:37:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:37:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:37:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:37:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:37:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:37:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:37:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:38:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:38:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:38:23 [INFO] watchfiles.main: 1 change detected
+2025-07-16 03:38:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:38:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:38:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:38:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:38:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:38:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:38:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:38:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:39:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:39:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:39:23 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:39:23 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:39:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:39:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:39:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:39:53 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:39:53 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:39:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:40:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:40:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:40:24 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:40:24 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:40:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:40:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:40:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:40:54 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:40:54 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:40:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:41:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:41:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:41:24 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:41:24 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:41:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:41:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:41:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:41:54 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:41:54 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:41:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:24 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:42:24 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:42:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:54 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 03:42:54 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 03:42:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 03:42:55 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-16 03:42:55 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-16 03:42:55 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-16 03:42:55 [INFO] face-presence-api: [App] Executor resources cleaned up.
+2025-07-16 12:32:04 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 12:32:06 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 12:34:04 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 12:34:05 [INFO] face-presence-api: Settings loaded successfully.
+2025-07-16 12:34:14 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-16 12:34:15 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 12:34:15 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 12:34:15 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-16 12:34:15 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-16 12:34:22 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-16 12:34:23 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-16 12:34:23 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-16 12:34:23 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-16 12:34:24 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-16 12:34:24 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-16 12:34:30 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-16 12:34:30 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-16 12:34:30 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-16 12:34:34 [INFO] face-presence-api: [Root] Redirecting to /docs
+2025-07-16 12:34:40 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 12:34:50 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 12:34:58 [DEBUG] watchfiles.main: 1 change detected: {(<Change.modified: 2>, '/app/src/logs/2025-07-16.log')}
+2025-07-16 12:35:00 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-16 12:35:00 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 12:35:00 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-16 12:35:10 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 12:35:20 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-16 12:35:26 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-16 12:35:26 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-16 12:35:26 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-16 12:35:26 [INFO] face-presence-api: [App] Executor resources cleaned up.
