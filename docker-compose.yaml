@@ -1,12 +1,10 @@
 services:
-  web:
+  app:
     build: .
     ports:
-      - "8888:8888"  # Sesuaikan dengan settings.API_PORT kamu
-    environment:
-      - DEBUG=True
+      - "8888:8888"
     env_file:
       - .env
     volumes:
-      - ./credentials.json:/app/credentials.json
-    restart: always
+      - ./src/etc/secret:/app/src/etc/secret:ro  # mount read-only
+

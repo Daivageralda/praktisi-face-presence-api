@@ -1,20 +1,25 @@
+# Python artifacts
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
-*.sqlite3
 *.log
-*.h5
-*.pkl
-*.npy
-*.npz
-.env
+
+# Virtual env
 venv/
-env/
-.idea/
-.vscode/
-.git/
-logs/
-datasets/
-data/
+
+# Test cache
+src/.pytest_cache/
+src/**/__pycache__/
+
+# Secrets and env
+.env
+src/etc/secret/
+
+# Storage files
+src/storage/embeddings/
+src/storage/test_images/
+
+# GitHub CI
+.github/
+command.txt

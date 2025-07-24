@@ -1,5 +1,4 @@
 import os
-
 from pathlib import Path
 from pydantic import Field
 from typing import Dict, List
@@ -22,6 +21,7 @@ class Settings(BaseSettings):
     BASE_DIR: Path = Path(__file__).resolve().parents[2]
     EMBEDDING_DIR: Path = BASE_DIR / "src/storage/embeddings"
     IMAGE_DIR: Path = BASE_DIR / "src/storage/test_images"
+    DATASET_DIR: Path = BASE_DIR / "src/storage/lfw-dataset"
     MODEL_PATH: Path = BASE_DIR / "src/models/facenet.tflite"
     LOG_PATH: Path = BASE_DIR / "src/logs"
 
@@ -80,7 +80,14 @@ class Settings(BaseSettings):
 # Global settings instance
 try:
     settings = Settings()
-    logger.info("Settings loaded successfully.")
+
+    # Ensure necessary directories exist
+    os.makedirs(settings.EMBEDDING_DIR, exist_ok=True)
+    os.makedirs(settings.IMAGE_DIR, exist_ok=True)
+    os.makedirs(settings.LOG_PATH, exist_ok=True)
+    os.makedirs(Path(settings.CREDENTIALS).parent, exist_ok=True)
+
+    logger.info("Settings loaded and directories ensured.")
 except Exception as e:
     logger.exception(f"Failed to load settings: {e}")
     raise

@@ -1,27 +1,80 @@
-name: Build & Push Docker Image to Docker Hub
+name: 🔁 CI/CD: Build, Push, Deploy to VPS
 
 on:
   push:
     branches:
-      - cicd  # ganti dengan nama branch kamu (misal: dev)
+      - main
 
 jobs:
-  build-and-push:
+  deploy:
     runs-on: ubuntu-latest
 
+    env:
+      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/face-presence-api-deploy:latest
+
     steps:
-      - name: Checkout source code
-        uses: actions/checkout@v3
+    - name: 📥 Checkout
+      uses: actions/checkout@v3
 
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+    - name: 🐳 Login to Docker Hub
+      run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: true
-          tags: daivageralda831/face-presence-cicd-test:latest
+    - name: 📦 Build and Push Image
+      run: |
+        docker build -t $IMAGE_NAME .
+        docker push $IMAGE_NAME
+
+    - name: 🔑 SSH Setup
+      uses: webfactory/ssh-agent@v0.8.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: 🚀 SSH to VPS and Deploy
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
+          docker pull $IMAGE_NAME
+
+          docker stop face-presence-api || true
+          docker rm face-presence-api || true
+
+          sleep 2
+
+          docker run -d \
+            --name face-presence-api \
+            -p 8888:8888 \
+            --env-file /home/daivageralda831/.env \
+            -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro \
+            $IMAGE_NAME
+
+          echo "✅ Deployment success on VPS"
+        EOF
+
+
+
+# name: Build & Push Docker Image to Docker Hub
+
+# on:
+#   push:
+#     branches:
+#       - deploy  # ganti dengan nama branch kamu (misal: dev)
+
+# jobs:
+#   build-and-push:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout source code
+#         uses: actions/checkout@v3
+
+#       - name: Login to Docker Hub
+#         uses: docker/login-action@v2
+#         with:
+#           username: ${{ secrets.DOCKERHUB_USERNAME }}
+#           password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+#       - name: Build and push Docker image
+#         uses: docker/build-push-action@v5
+#         with:
+#           context: .
+#           push: true
+#           tags: daivageralda831/face-presence-cicd-test:latest

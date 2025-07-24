@@ -88,9 +88,7 @@ async def evaluate_user(user_id: str):
         if not user_test_paths:
             return response(404, False, "Tidak ada gambar test user ditemukan.", {})
 
-        all_user_dirs = glob(os.path.join(settings.IMAGE_DIR, "*"))
-        other_users = [d for d in all_user_dirs if os.path.basename(d) != user_id]
-        other_images = [img for d in other_users for img in glob(os.path.join(d, "*.webp"))]
+        other_images = glob(os.path.join(settings.DATASET_DIR, "*.webp"))
 
         if len(other_images) < len(user_test_paths):
             return response(
