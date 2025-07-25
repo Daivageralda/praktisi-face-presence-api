@@ -3,34 +3,34 @@ name: Build, Push, Deploy to VPS
 on:
   push:
     branches:
-      - deploy
+      - beta-v1
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/face-presence-api-deploy:latest
+      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/face-presence-api-beta:latest
 
     steps:
-    - name: 📥 Checkout
+    - name: Checkout
       uses: actions/checkout@v3
 
-    - name: 🐳 Login to Docker Hub
+    - name: Login to Docker Hub
       run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
 
-    - name: 📦 Build and Push Image
+    - name: Build and Push Image
       run: |
         docker build -t $IMAGE_NAME .
         docker push $IMAGE_NAME
 
-    - name: 🔑 SSH Setup 
+    - name: SSH Setup 
       uses: webfactory/ssh-agent@v0.9.0
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         log-public-key: true
 
-    - name: 🚀 SSH to VPS and Deploy
+    - name: SSH to VPS and Deploy
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
           sudo docker pull $IMAGE_NAME
@@ -40,37 +40,7 @@ jobs:
 
           sleep 2
 
-          sudo docker run -d --name face-presence-api -p 8888:8888 --env-file /home/daivageralda831/.env -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro daivageralda831/face-presence-api-deploy:latest
+          sudo docker run -d --name face-presence-api -p 8888:8888 --env-file /home/daivageralda831/.env -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro $IMAGE_NAME
 
-          echo "✅ Deployment success on VPS"
+          echo "Deployment success on VPS"
         EOF
-
-
-
-# name: Build & Push Docker Image to Docker Hub
-
-# on:
-#   push:
-#     branches:
-#       - deploy  # ganti dengan nama branch kamu (misal: dev)
-
-# jobs:
-#   build-and-push:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout source code
-#         uses: actions/checkout@v3
-
-#       - name: Login to Docker Hub
-#         uses: docker/login-action@v2
-#         with:
-#           username: ${{ secrets.DOCKERHUB_USERNAME }}
-#           password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-#       - name: Build and push Docker image
-#         uses: docker/build-push-action@v5
-#         with:
-#           context: .
-#           push: true
-#           tags: daivageralda831/face-presence-cicd-test:latest

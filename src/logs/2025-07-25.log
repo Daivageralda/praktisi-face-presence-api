@@ -1,0 +1,1070 @@
+2025-07-25 15:10:56 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 15:10:57 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 15:10:57 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-25 15:10:57 [INFO] watchfiles.main: 1 change detected
+2025-07-25 15:11:24 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-25 15:11:31 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 15:11:31 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 15:11:31 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 15:11:31 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 15:12:19 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-25 15:12:19 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-25 15:12:19 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-25 15:12:19 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-25 15:12:20 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-25 15:12:20 [INFO] watchfiles.main: 5 changes detected
+2025-07-25 15:12:21 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-25 15:12:21 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-25 15:12:21 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-25 15:12:21 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-25 15:12:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:12:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:12:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:12:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:12:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:13:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:13:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:13:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:13:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:13:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:13:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:13:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:13:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:13:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:13:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:14:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:14:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:14:48 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:14:48 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:14:48 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:14:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:14:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:14:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:14:56 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:14:56 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:14:56 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:15:00 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:15:00 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:15:00 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:15:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:15:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:15:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:15:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:15:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:15:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:15:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:15:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:15:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:15:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:16:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:16:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:16:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:16:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:16:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:16:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:16:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:16:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:16:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:16:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:17:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:17:06 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:17:06 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:17:06 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:17:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:17:12 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:17:12 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:17:12 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:17:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:17:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:17:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:17:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:17:36 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:17:36 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:17:36 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:17:40 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:17:40 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:17:40 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:17:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:17:45 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:17:45 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:17:45 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:17:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:17:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:17:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:18:00 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:18:00 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:18:00 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:18:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:18:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:18:14 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:18:14 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:18:14 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:18:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:18:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:18:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:18:24 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:18:24 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:18:24 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:18:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:18:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:18:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:18:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:18:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:19:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:19:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:19:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:19:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:19:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:19:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:19:40 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:19:40 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:19:40 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:19:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:19:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:19:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:19:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:20:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:20:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:20:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:20:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:20:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:20:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:20:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:20:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:20:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:20:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:21:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:21:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:21:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:21:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:21:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:21:30 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:21:30 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:21:30 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:21:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:21:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:21:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:21:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:21:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:22:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:22:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:22:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:22:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:22:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:22:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:22:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:22:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:22:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:22:51 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:23:01 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:23:11 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:23:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:23:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:23:21 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:23:31 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:23:41 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:23:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:23:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:23:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:24:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:24:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:24:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:24:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:24:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:24:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:24:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:24:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:24:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:24:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:25:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:25:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:25:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:25:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:25:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:25:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:25:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:25:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:25:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:25:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:26:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:26:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:26:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:26:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:26:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:26:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:26:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:26:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:26:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:26:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:27:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:27:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:27:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:27:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:27:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:27:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:27:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:27:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:27:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:27:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:28:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:28:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:28:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:28:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:28:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:28:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:28:39 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:28:39 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:28:39 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:28:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:28:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:28:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:28:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:29:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:29:02 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:29:02 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:29:02 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:29:09 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:29:09 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:29:09 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:29:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:29:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:29:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:29:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:29:23 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:29:23 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:29:23 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:29:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:29:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:29:44 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:29:44 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:29:44 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:29:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:29:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:29:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:30:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:30:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:30:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:30:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:30:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:30:32 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:30:32 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:30:32 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:30:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:30:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:30:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:30:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:30:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:31:02 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:31:02 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:31:02 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:31:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:31:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:31:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:31:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:31:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:31:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:31:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:31:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:31:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:31:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:32:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:32:22 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:32 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:32:36 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:32:36 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:32:36 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:32:42 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:32:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:32:52 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:32:54 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:32:54 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:32:54 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:33:02 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:33:12 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:33:12 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:33:12 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:33:12 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:33:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:33:21 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:33:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:33:30 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:33:30 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:33:30 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:33:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:33:42 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:33:42 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:33:42 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:33:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:33:51 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:33:51 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:33:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:34:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:34:03 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:34:03 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:34:03 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:34:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:34:18 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:34:18 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:34:18 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:34:21 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:34:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:34:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:34:27 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:34:27 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:34:27 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:34:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:34:33 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:34:33 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:34:33 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:34:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:34:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:34:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:34:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:35:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:35:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:35:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:35:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:35:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:35:30 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:35:30 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:35:30 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:35:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:35:36 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:35:36 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:35:36 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:35:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:35:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:35:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:35:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:36:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:36:05 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:36:05 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:36:05 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:36:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:36:17 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:36:17 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:36:17 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:36:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:36:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:36:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:36:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:36:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:36:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:36:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:36:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:37:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:37:12 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:37:12 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:37:12 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:37:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:37:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:37:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:37:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:37:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:37:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:37:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:37:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:37:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:38:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:38:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:38:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:38:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:38:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:38:28 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:38:28 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:38:28 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:38:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:38:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:38:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:38:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:38:52 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:38:52 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:38:52 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:38:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:39:07 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:39:07 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:39:07 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:39:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:39:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:39:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:39:41 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:39:41 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:39:41 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:39:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:39:46 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:39:46 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:39:46 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:39:51 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:39:51 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:39:51 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:39:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:39:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:39:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:39:55 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:39:55 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:39:55 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:40:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:40:12 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:40:12 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:40:12 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:40:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:40:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:40:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:40:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:40:24 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:40:24 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:40:24 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:40:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:94]
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-07-25 15:40:34 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-07-25 15:40:34 [INFO] face-presence-api: Checking status for user: 44
+2025-07-25 15:40:34 [INFO] face-presence-api: User 44 is already registered.
+2025-07-25 15:40:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:40:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:40:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:40:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:41:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:41:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:41:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:41:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:41:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:41:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:41:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:41:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:41:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:41:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:42:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:42:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:42:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:42:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:42:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:42:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:42:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:42:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:42:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:42:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:43:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:43:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:43:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:43:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:43:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:43:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:43:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:43:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:43:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:43:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:44:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:44:13 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:44:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:44:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:44:23 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:44:33 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:44:43 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:44:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:44:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:44:53 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:45:03 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:45:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:45:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:45:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:45:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:45:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:45:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:45:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:45:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:45:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:46:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:46:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:46:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:46:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:46:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:46:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:46:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:46:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:46:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:46:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:47:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:47:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:47:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:47:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:47:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:47:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:47:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:47:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:47:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:47:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:48:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:48:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:48:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:48:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:48:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:48:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:48:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:48:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:48:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:48:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:49:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:49:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:49:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:49:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:49:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:49:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:49:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:49:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:49:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:49:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:50:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:50:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:50:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:50:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:50:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:50:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:50:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:50:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:50:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:50:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:51:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:51:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:51:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:51:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:51:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:51:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:51:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:51:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:51:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:51:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:52:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:52:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:52:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:52:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:52:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:52:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:52:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:52:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:52:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:52:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:53:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:53:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:53:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:53:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:53:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:53:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:53:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:53:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:53:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:53:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:54:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:54:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:54:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:54:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:54:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:54:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:54:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:54:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:54:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:54:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:55:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:55:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:55:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:55:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:55:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:55:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:55:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:55:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:55:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:55:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:56:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:56:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:56:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:56:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:56:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:56:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:56:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:56:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:56:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:56:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:57:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:57:14 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:57:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:57:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:57:24 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:57:34 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:57:44 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:57:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:57:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:57:54 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:58:04 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:58:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:58:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:58:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:58:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:58:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:58:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:58:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:58:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:58:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:59:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:59:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:59:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:59:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:59:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:59:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:59:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 15:59:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 15:59:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 15:59:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:00:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:00:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:00:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:00:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:00:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:00:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:00:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:00:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:00:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:00:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:01:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:01:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:01:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:01:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:01:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:01:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:01:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:01:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:01:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:01:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:02:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:02:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:02:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:02:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:02:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:02:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:02:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:02:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:02:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:02:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:03:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:03:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:03:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:03:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:03:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:03:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:03:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:03:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:03:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:03:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:04:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:04:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:04:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:04:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:04:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:04:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:04:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:04:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:04:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:04:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:05:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:05:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:05:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:05:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:05:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:05:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:05:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:05:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:05:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:05:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:06:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:06:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:06:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:06:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:06:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:06:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:06:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:06:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:06:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:06:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:07:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:07:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:07:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:07:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:07:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:07:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:07:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:07:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:07:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:07:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:08:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:08:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:08:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:08:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:08:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:08:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:08:45 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:08:52 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:08:52 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:08:55 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:09:05 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:09:15 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:09:22 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-07-25 16:09:22 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-07-25 16:09:25 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 16:09:35 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-07-25 17:44:06 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 17:44:07 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 17:44:07 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-25 17:44:07 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:07 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:08 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:08 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:08 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:09 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:09 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:10 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:10 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:10 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:11 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:11 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:12 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:12 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:13 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:13 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:13 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:14 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:14 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:15 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:15 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:15 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:16 [INFO] watchfiles.main: 1 change detected
+2025-07-25 17:44:35 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-25 17:44:47 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 17:44:47 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 17:44:47 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 17:44:47 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 17:45:48 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-25 17:45:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-25 17:45:49 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-25 17:45:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-25 17:45:50 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-25 17:45:50 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-25 17:45:50 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-25 17:45:50 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-25 17:45:50 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
