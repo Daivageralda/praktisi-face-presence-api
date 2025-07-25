@@ -40,7 +40,7 @@ jobs:
 
           sleep 2
 
-          sudo docker run -d --name face-presence-api -p 8888:8888 --env-file /home/daivageralda831/.env -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro $IMAGE_NAME
+          sudo docker run -d --name face-presence-api -p 8888:8888 --env-file /home/daivageralda831/.env -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro daivageralda831/face-presence-api-beta:latest
 
           echo "Deployment success on VPS"
         EOF
