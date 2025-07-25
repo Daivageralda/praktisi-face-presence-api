@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Login to Docker Hub
       run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
@@ -32,15 +32,21 @@ jobs:
 
     - name: SSH to VPS and Deploy
       run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
-          sudo docker pull $IMAGE_NAME
+        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << EOF
+          sudo docker pull ${{ secrets.DOCKERHUB_USERNAME }}/face-presence-api-beta:latest
 
           sudo docker stop face-presence-api || true
           sudo docker rm face-presence-api || true
 
           sleep 2
 
-          sudo docker run -d --name face-presence-api -p 8888:8888 --env-file /home/daivageralda831/.env -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro daivageralda831/face-presence-api-beta:latest
+          sudo docker run -d \
+            --name face-presence-api \
+            -p 8888:8888 \
+            --env-file /home/daivageralda831/.env \
+            -v /home/daivageralda831/src/etc/secret:/app/src/etc/secret:ro \
+            --restart unless-stopped \
+            ${{ secrets.DOCKERHUB_USERNAME }}/face-presence-api-beta:latest
 
-          echo "Deployment success on VPS"
+          echo "✅ Deployment success on VPS"
         EOF

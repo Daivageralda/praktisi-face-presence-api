@@ -1068,3 +1068,106 @@
 2025-07-25 17:45:50 [INFO] face-presence-api: TFLite interpreter initialized on startup.
 2025-07-25 17:45:50 [INFO] face-presence-api: [BatchLogger] Background loggers started
 2025-07-25 17:45:50 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-25 18:30:53 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 18:30:54 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 18:30:54 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-25 18:30:54 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:54 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:55 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:55 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:56 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:56 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:56 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:57 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:57 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:58 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:58 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:58 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:59 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:30:59 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:00 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:00 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-25 18:31:00 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:00 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:01 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:01 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:01 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 18:31:01 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 18:31:01 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 18:31:01 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 18:31:02 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:02 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:03 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:03 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:03 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:04 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:04 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:05 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:05 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:05 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:06 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:06 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:07 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:07 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:08 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:08 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:08 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:09 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:09 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:20 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 18:31:21 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-07-25 18:31:21 [DEBUG] asyncio: Using selector: SelectSelector
+2025-07-25 18:31:21 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:22 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:22 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:22 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:23 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:23 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:24 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:24 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:24 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-07-25 18:31:25 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:25 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:25 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 18:31:25 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 18:31:25 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-07-25 18:31:25 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-07-25 18:31:25 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:26 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:26 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:27 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:27 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:27 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:28 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:28 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:29 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-25 18:31:29 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:29 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-07-25 18:31:29 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:29 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-07-25 18:31:29 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-07-25 18:31:29 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:30 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:30 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:31 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:31 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:31 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:32 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:32 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:32 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-07-25 18:31:32 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-07-25 18:31:33 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-07-25 18:31:33 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-07-25 18:31:33 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-07-25 18:31:33 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:33 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:33 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:34 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:34 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:35 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:35 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:36 [INFO] watchfiles.main: 1 change detected
+2025-07-25 18:31:36 [INFO] face-presence-api: [App] Shutting down application...
+2025-07-25 18:31:36 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-07-25 18:31:36 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-07-25 18:31:36 [INFO] face-presence-api: [App] Executor resources cleaned up.
