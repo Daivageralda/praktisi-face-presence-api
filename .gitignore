@@ -1,7 +1,8 @@
 venv/
 .env
 src/etc
-src/storage/
+src/storage/test_images
+src/storage/embeddings
 src/__pycache__
 src/models/__pycache__
 src/routes/__pycache__
