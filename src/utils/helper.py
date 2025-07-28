@@ -81,7 +81,7 @@ def response(status_code: int, success: bool, msg: str, data: Dict[str, Any]) ->
     return {
         "status_code": status_code,
         "success": success,
-        "message": msg,
+        "msg": msg,
         "data": data
     }
 
