@@ -46,7 +46,12 @@ app = FastAPI(
 # Register global middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://praktisi-dev.novilfahlevy.me",
+        "https://presensi.novilfahlevy.me",
+        "http://localhost:8888",
+        "http://0.0.0.0:8888"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
