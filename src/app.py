@@ -47,8 +47,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://praktisi-lab.my.id.com",
-        "https://www.praktisi-lab.my.id.com"  # Jangan lupa www juga
+        "https://praktisi-lab.my.id",
+        "https://www.praktisi-lab.my.id"  # Jangan lupa www juga
     ],
     allow_credentials=True,
     allow_methods=["*"],
