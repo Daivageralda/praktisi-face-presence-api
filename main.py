@@ -12,7 +12,7 @@ def start_server():
     try:
         uvicorn.run(
             "src.app:app",
-            host="0.0.0.0",
+            host="localhost",
             port=settings.API_PORT,
             reload=settings.DEBUG,
             reload_excludes=["src/logs"],

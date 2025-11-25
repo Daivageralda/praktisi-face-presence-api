@@ -47,10 +47,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://praktisi-dev.novilfahlevy.me",
-        "https://presensi.novilfahlevy.me",
-        "http://localhost:8888",
-        "http://0.0.0.0:8888"
+        "https://praktisi-lab.my.id.com",
+        "https://www.praktisi-lab.my.id.com"  # Jangan lupa www juga
     ],
     allow_credentials=True,
     allow_methods=["*"],

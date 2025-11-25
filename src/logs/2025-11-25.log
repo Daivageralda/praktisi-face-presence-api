@@ -1,0 +1,936 @@
+2025-11-25 18:53:55 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-11-25 18:53:56 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-11-25 18:53:56 [DEBUG] asyncio: Using selector: SelectSelector
+2025-11-25 18:53:56 [INFO] watchfiles.main: 1 change detected
+2025-11-25 18:54:31 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-11-25 18:54:40 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-11-25 18:54:40 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-11-25 18:54:40 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-11-25 18:54:40 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-11-25 18:55:44 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-11-25 18:55:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-11-25 18:55:45 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-11-25 18:55:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-11-25 18:55:46 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-11-25 18:55:46 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-11-25 18:55:46 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-11-25 18:55:46 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-11-25 18:55:46 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:55:55 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:55:55 [INFO] face-presence-api: Checking status for user: 2309116040
+2025-11-25 18:55:55 [INFO] face-presence-api: User 2309116040 has not registered.
+2025-11-25 18:55:56 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:00 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:56:00 [INFO] face-presence-api: Checking status for user: 2309116040
+2025-11-25 18:56:00 [INFO] face-presence-api: User 2309116040 has not registered.
+2025-11-25 18:56:06 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:56:16 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:56:16 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:56:16 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:56:26 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[146:165]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[167:213]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[215:227]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[229:239]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[243:3027]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[3071:3090]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[3092:3138]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[3140:3152]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[3154:3164]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[3168:6036]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[6080:6099]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[6101:6147]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[6149:6161]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[6163:6173]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[6177:9077]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[9121:9140]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[9142:9188]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[9190:9202]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[9204:9214]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[9218:12044]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[12088:12107]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[12109:12155]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[12157:12169]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[12171:12181]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[12185:15025]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[15069:15088]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[15090:15136]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[15138:15150]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[15152:15162]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[15166:18048]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[18092:18111]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[18113:18159]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[18161:18173]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[18175:18185]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[18189:21127]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[21171:21190]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[21192:21238]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[21240:21252]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[21254:21264]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[21268:24202]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[24246:24265]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[24267:24313]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_field with data[24315:24327]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_value with data[24329:24339]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_data with data[24343:27297]
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:31 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[27341:27360]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[27362:27409]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[27411:27423]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[27425:27435]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[27439:30393]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[30437:30456]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[30458:30505]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[30507:30519]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[30521:30531]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[30535:33489]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[33533:33552]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[33554:33601]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[33603:33615]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[33617:33627]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[33631:36637]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[36681:36700]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[36702:36749]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[36751:36763]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[36765:36775]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[36779:39667]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[39711:39730]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[39732:39779]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[39781:39793]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[39795:39805]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[39809:42643]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42687:42706]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[42708:42755]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42757:42769]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[42771:42781]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[42785:45679]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[45723:45742]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[45744:45791]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[45793:45805]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[45807:45817]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[45821:48691]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[48735:48754]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[48756:48803]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[48805:48817]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[48819:48829]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[48833:51793]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[51837:51856]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[51858:51905]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[51907:51919]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[51921:51931]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[51935:54929]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[54973:54992]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[54994:55041]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[55043:55055]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[55057:55067]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[55071:58001]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[58045:58064]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[58066:58113]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[58115:58127]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[58129:58139]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[58143:61047]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[61091:61110]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[61112:61159]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[61161:61173]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[61175:61185]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[61189:64031]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[64075:64094]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[64096:64143]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[64145:64157]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[64159:64169]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[64173:67485]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[67529:67548]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[67550:67597]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[67599:67611]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[67613:67623]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[67627:70939]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[70983:71002]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[71004:71051]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[71053:71065]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[71067:71077]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[71081:74393]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[74437:74456]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[74458:74505]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[74507:74519]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[74521:74531]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[74535:77413]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[77457:77476]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[77478:77525]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[77527:77539]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[77541:77551]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[77555:80451]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[80495:80514]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[80516:80563]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[80565:80577]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[80579:80589]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[80593:83385]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[83429:83448]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[83450:83497]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[83499:83511]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[83513:83523]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[83527:86461]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[86505:86524]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[86526:86573]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[86575:86587]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[86589:86599]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[86603:89493]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[89537:89556]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[89558:89605]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[89607:89619]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[89621:89631]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[89635:92525]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[92569:92588]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[92590:92637]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[92639:92651]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[92653:92663]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92667:95557]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[95601:95620]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[95622:95669]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[95671:95683]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[95685:95695]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[95699:98761]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[98805:98824]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[98826:98873]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[98875:98887]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[98889:98899]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[98903:101919]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[101963:101982]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[101984:102031]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[102033:102045]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[102047:102057]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[102061:105179]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[105223:105242]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[105244:105291]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[105293:105305]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[105307:105317]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[105321:108215]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[108259:108278]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[108280:108327]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[108329:108341]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[108343:108353]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[108357:111181]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[111225:111244]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[111246:111293]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[111295:111307]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[111309:111319]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[111323:114359]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[114403:114422]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[114424:114471]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[114473:114485]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[114487:114497]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[114501:117465]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[117509:117528]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[117530:117577]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[117579:117591]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[117593:117603]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[117607:120711]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[120755:120774]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[120776:120823]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[120825:120837]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[120839:120849]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[120853:123719]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[123763:123782]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[123784:123831]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[123833:123845]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[123847:123857]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[123861:126675]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[126719:126738]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[126740:126787]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[126789:126801]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[126803:126813]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[126817:129683]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[129727:129746]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[129748:129795]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[129797:129809]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[129811:129821]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[129825:131072]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[0:1763]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[1807:1826]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[1828:1875]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[1877:1889]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[1891:1901]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[1905:4859]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[4903:4922]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[4924:4971]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[4973:4985]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[4987:4997]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[5001:7779]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[7823:7842]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[7844:7891]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[7893:7905]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[7907:7917]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[7921:11157]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[11201:11220]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[11222:11269]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[11271:11283]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[11285:11295]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[11299:14425]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[14469:14488]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[14490:14537]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[14539:14551]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[14553:14563]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[14567:17961]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[18005:18024]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[18026:18073]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[18075:18087]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[18089:18099]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[18103:21435]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[21479:21498]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[21500:21547]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_field with data[21549:21561]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_value with data[21563:21573]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_data with data[21577:24649]
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:32 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:56:32 [INFO] face-presence-api: Registering user: 2309116040
+2025-11-25 18:56:32 [INFO] watchfiles.main: 1 change detected
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing AvifImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing BlpImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing BmpImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing BufrStubImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing CurImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing DcxImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing DdsImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing EpsImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing FitsImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing FliImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing FpxImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing FtexImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing GbrImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing GifImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing GribStubImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing Hdf5StubImagePlugin
+2025-11-25 18:56:33 [DEBUG] PIL.Image: Importing IcnsImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing IcoImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing ImImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing ImtImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing IptcImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing JpegImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing Jpeg2KImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing McIdasImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing MicImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing MpegImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing MpoImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing MspImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PalmImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PcdImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PcxImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PdfImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PixarImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PngImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PpmImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing PsdImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing QoiImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing SgiImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing SpiderImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing SunImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing TgaImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing TiffImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing WebPImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing WmfImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing XbmImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing XpmImagePlugin
+2025-11-25 18:56:34 [DEBUG] PIL.Image: Importing XVThumbImagePlugin
+2025-11-25 18:56:34 [INFO] watchfiles.main: 1 change detected
+2025-11-25 18:56:34 [DEBUG] face-presence-api: 🧹 Memory cleared with garbage collector.
+2025-11-25 18:56:35 [INFO] face-presence-api: 📁 10 test image berhasil disimpan untuk user 2309116040 di F:\Kuliah\Skripsi\praktisi-face-presence-api\src\storage\test_images\2309116040
+2025-11-25 18:56:35 [INFO] watchfiles.main: 9 changes detected
+2025-11-25 18:56:35 [DEBUG] face-presence-api: 🧹 Memory cleared with garbage collector.
+2025-11-25 18:56:35 [INFO] face-presence-api: Processing batch 1/8
+2025-11-25 18:56:35 [INFO] face-presence-api: Processing batch 2/8
+2025-11-25 18:56:36 [INFO] face-presence-api: Processing batch 3/8
+2025-11-25 18:56:36 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:56:36 [INFO] face-presence-api: Processing batch 4/8
+2025-11-25 18:56:37 [INFO] face-presence-api: Processing batch 5/8
+2025-11-25 18:56:37 [INFO] face-presence-api: Processing batch 6/8
+2025-11-25 18:56:38 [INFO] face-presence-api: Processing batch 7/8
+2025-11-25 18:56:38 [INFO] face-presence-api: Processing batch 8/8
+2025-11-25 18:56:38 [INFO] face-presence-api: Finished processing 40 valid embeddings from 40 images
+2025-11-25 18:56:38 [INFO] face-presence-api: Validasi berhasil: 40 embeddings valid
+2025-11-25 18:56:38 [INFO] face-presence-api: Validasi berhasil: 40 embeddings valid
+2025-11-25 18:56:38 [INFO] face-presence-api: Embedding berhasil disimpan untuk user 2309116040 di F:\Kuliah\Skripsi\praktisi-face-presence-api\src\storage\embeddings\2309116040.pkl
+2025-11-25 18:56:38 [INFO] face-presence-api: Embeddings saved successfully for user 2309116040, starting evaluation.
+2025-11-25 18:56:38 [INFO] face-presence-api: Evaluating ...
+2025-11-25 18:56:38 [INFO] watchfiles.main: 2 changes detected
+2025-11-25 18:56:39 [INFO] face-presence-api: Evaluating batch 1/4
+2025-11-25 18:56:39 [INFO] face-presence-api: Evaluating batch 2/4
+2025-11-25 18:56:39 [INFO] face-presence-api: Evaluating batch 3/4
+2025-11-25 18:56:40 [INFO] face-presence-api: Evaluating batch 4/4
+2025-11-25 18:56:41 [INFO] face-presence-api: Face registration successful for user 2309116040.
+2025-11-25 18:56:46 [INFO] face-presence-api: [BatchLogger] Flushing 1 registrations...
+2025-11-25 18:56:47 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-11-25 18:56:47 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058/values/%27Registration%27 HTTP/1.1" 200 None
+2025-11-25 18:56:48 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058/values/%27Registration%27 HTTP/1.1" 200 None
+2025-11-25 18:56:48 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058/values/%27Registration%27:append?valueInputOption=RAW HTTP/1.1" 200 None
+2025-11-25 18:56:48 [INFO] face-presence-api: [BatchLogger] Appended 1 new registration rows
+2025-11-25 18:56:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:56:48 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:56:50 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:56:50 [INFO] face-presence-api: Checking status for user: 2309116040
+2025-11-25 18:56:50 [INFO] face-presence-api: User 2309116040 is already registered.
+2025-11-25 18:56:58 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:57:08 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:57:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:57:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:57:18 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:57:28 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:57:38 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:57:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:57:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:57:48 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:57:58 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:08 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:58:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:58:18 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:28 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:38 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:58:47 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:58:47 [INFO] face-presence-api: Checking status for user: 2309116040
+2025-11-25 18:58:47 [INFO] face-presence-api: User 2309116040 is already registered.
+2025-11-25 18:58:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:58:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:58:48 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:58 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:58:58 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:58:58 [INFO] face-presence-api: Checking status for user: 2309116040
+2025-11-25 18:58:58 [INFO] face-presence-api: User 2309116040 is already registered.
+2025-11-25 18:59:08 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_part_begin with no data
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_header_field with data[42:61]
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_header_value with data[63:88]
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_header_end with no data
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_headers_finished with no data
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_part_data with data[92:102]
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_part_end with no data
+2025-11-25 18:59:15 [DEBUG] python_multipart.multipart: Calling on_end with no data
+2025-11-25 18:59:15 [INFO] face-presence-api: Checking status for user: 2309116040
+2025-11-25 18:59:15 [INFO] face-presence-api: User 2309116040 is already registered.
+2025-11-25 18:59:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:59:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:59:18 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:59:28 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:59:38 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:59:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 18:59:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 18:59:48 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 18:59:58 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:00:08 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:00:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:00:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:00:18 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:00:28 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:00:38 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:00:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:00:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:00:48 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:00:58 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:01:08 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:01:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:01:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:01:18 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:01:28 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:01:38 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:01:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:01:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:01:48 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:01:58 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:02:08 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:02:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:02:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:02:18 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:02:28 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:02:38 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:02:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:02:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:02:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:02:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:03:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:03:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:03:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:03:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:03:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:03:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:03:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:03:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:03:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:03:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:04:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:04:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:04:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:04:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:04:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:04:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:04:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:04:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:04:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:04:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:05:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:05:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:05:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:05:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:05:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:05:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:05:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:05:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:05:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:05:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:06:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:06:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:06:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:06:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:06:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:06:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:06:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:06:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:06:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:06:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:07:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:07:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:07:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:07:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:07:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:07:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:07:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:07:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:07:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:07:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:08:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:08:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:08:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:08:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:08:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:08:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:08:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:08:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:08:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:08:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:09:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:09:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:09:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:09:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:09:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:09:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:09:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:09:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:09:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:09:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:10:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:10:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:10:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:10:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:10:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:10:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:10:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:10:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:10:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:10:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:11:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:11:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:11:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:11:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:11:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:11:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:11:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:11:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:11:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:11:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:12:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:12:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:12:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:12:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:12:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:12:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:12:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:12:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:12:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:12:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:13:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:13:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:13:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:13:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:13:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:13:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:13:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:13:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:13:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:13:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:14:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:14:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:14:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:14:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:14:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:14:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:14:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:14:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:14:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:14:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:15:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:15:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:15:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:15:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:15:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:15:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:15:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:15:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:15:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:15:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:16:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:16:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:16:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:16:19 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:16:29 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:16:39 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:16:48 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:16:48 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:16:49 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:16:59 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:17:09 [DEBUG] face-presence-api: [BatchLogger] No durations, skip flush
+2025-11-25 19:17:18 [DEBUG] face-presence-api: [BatchLogger] No registrations, skip flush
+2025-11-25 19:17:18 [DEBUG] face-presence-api: [BatchLogger] No verifications, skip flush
+2025-11-25 19:17:19 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:17:19 [INFO] face-presence-api: [App] Shutting down application...
+2025-11-25 19:17:19 [INFO] face-presence-api: Shutting down thread pool executor...
+2025-11-25 19:17:19 [INFO] face-presence-api: Thread pool executor successfully shut down.
+2025-11-25 19:17:19 [INFO] face-presence-api: [App] Executor resources cleaned up.
+2025-11-25 19:17:23 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:17:26 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-11-25 19:17:26 [DEBUG] asyncio: Using selector: SelectSelector
+2025-11-25 19:17:26 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:17:27 [INFO] watchfiles.main: 6 changes detected
+2025-11-25 19:17:36 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-11-25 19:17:39 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-11-25 19:17:39 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-11-25 19:17:39 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-11-25 19:17:39 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-11-25 19:17:50 [DEBUG] urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-11-25 19:17:50 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-11-25 19:17:50 [DEBUG] urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-11-25 19:17:50 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-11-25 19:17:51 [DEBUG] urllib3.connectionpool: https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1hjXERVEURCeKXeCw8TUbrkjF25_GVmORN0JgjZuu058?includeGridData=false HTTP/1.1" 200 None
+2025-11-25 19:17:51 [INFO] face-presence-api: [FastAPI] Application initialized and ready.
+2025-11-25 19:17:51 [INFO] face-presence-api: TFLite interpreter initialized on startup.
+2025-11-25 19:17:51 [INFO] face-presence-api: [BatchLogger] Background loggers started
+2025-11-25 19:17:51 [INFO] face-presence-api: [BatchLogger] Spreadsheet integration activated successfully.
+2025-11-25 19:17:53 [INFO] watchfiles.main: 5 changes detected
+2025-11-25 19:17:53 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:17:55 [INFO] face-presence-api: Settings loaded and directories ensured.
+2025-11-25 19:17:55 [DEBUG] asyncio: Using selector: SelectSelector
+2025-11-25 19:17:55 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:17:55 [INFO] watchfiles.main: 5 changes detected
+2025-11-25 19:18:00 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:01 [DEBUG] tensorflow: Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-11-25 19:18:04 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-11-25 19:18:04 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-11-25 19:18:04 [DEBUG] h5py._conv: Creating converter from 7 to 5
+2025-11-25 19:18:04 [DEBUG] h5py._conv: Creating converter from 5 to 7
+2025-11-25 19:18:06 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:06 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:07 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:07 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:08 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:08 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:09 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:09 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:09 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:10 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:10 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:11 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:11 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:11 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:12 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:12 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:13 [INFO] watchfiles.main: 1 change detected
+2025-11-25 19:18:13 [INFO] watchfiles.main: 1 change detected

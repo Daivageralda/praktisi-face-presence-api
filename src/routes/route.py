@@ -56,6 +56,24 @@ async def verify_user(
     logger.info(f"Verifying user: {user_id}")
     return await verify_user_handler(user_id, file)
 
+@router.post("/status")
+async def status_user(
+    user_id: str = Form(...)
+):
+    """
+    Check the registration or verification status of a user.
+
+    Parameters
+    ----------
+    user_id : str
+        The user ID.
+
+    Returns
+    -------
+    JSON response with the current status of the user.
+    """
+    logger.info(f"Checking status for user: {user_id}")
+    return await status_user_handler(user_id)
 
 @router.post("/log")
 async def log_user(
@@ -78,23 +96,3 @@ async def log_user(
     """
     logger.info(f"Logging duration for user: {user_id}, duration: {durasi}")
     return await log_user_handler(user_id, durasi)
-
-
-@router.post("/status")
-async def status_user(
-    user_id: str = Form(...)
-):
-    """
-    Check the registration or verification status of a user.
-
-    Parameters
-    ----------
-    user_id : str
-        The user ID.
-
-    Returns
-    -------
-    JSON response with the current status of the user.
-    """
-    logger.info(f"Checking status for user: {user_id}")
-    return await status_user_handler(user_id)
